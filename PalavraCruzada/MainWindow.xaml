@@ -1,0 +1,201 @@
+﻿<Window x:Class="PalavraCruzada.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PalavraCruzada"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="700" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="C1_1" HorizontalAlignment="Left" Margin="116,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1" />
+        <TextBox x:Name="C1_3" HorizontalAlignment="Left" Margin="178,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
+        <TextBox x:Name="C1_4" HorizontalAlignment="Left" Margin="210,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
+        <TextBox x:Name="C1_5" HorizontalAlignment="Left" Margin="242,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
+        <TextBox x:Name="C1_6" HorizontalAlignment="Left" Margin="274,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
+        <TextBox x:Name="C3_2" HorizontalAlignment="Left" Margin="274,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP3"/>
+        <TextBox x:Name="C3_3" HorizontalAlignment="Left" Margin="274,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP3"/>
+        <TextBox x:Name="C3_4" HorizontalAlignment="Left" Margin="274,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP3"/>
+        <TextBox x:Name="C3_5" HorizontalAlignment="Left" Margin="274,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP3"/>
+        <TextBox x:Name="C7_2" HorizontalAlignment="Left" Margin="306,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP7"/>
+        <TextBox x:Name="C7_3" HorizontalAlignment="Left" Margin="339,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP7"/>
+        <TextBox x:Name="C4_2" HorizontalAlignment="Left" Margin="370,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP4"/>
+        <TextBox x:Name="C4_1" HorizontalAlignment="Left" Margin="370,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP4"/>
+        <TextBox x:Name="C4_3" HorizontalAlignment="Left" Margin="370,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP4"/>
+        <TextBox x:Name="C4_4" HorizontalAlignment="Left" Margin="370,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP4"/>
+        <TextBox HorizontalAlignment="Left" Margin="402,522,0,0" TextWrapping="Wrap" Text="F" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="402,162,0,0" TextWrapping="Wrap" Text="U" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="434,162,0,0" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="466,162,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="339,306,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="402,306,0,0" TextWrapping="Wrap" Text="M" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox x:Name="C5_2" HorizontalAlignment="Left" Margin="434,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="466,306,0,0" TextWrapping="Wrap" Text="S" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="498,306,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="530,306,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox x:Name="C6_2" HorizontalAlignment="Left" Margin="562,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
+        <TextBox x:Name="C5_1" HorizontalAlignment="Left" Margin="434,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C5_3" HorizontalAlignment="Left" Margin="434,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="2147483644"/>
+        <TextBox x:Name="C5_4" HorizontalAlignment="Left" Margin="434,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox x:Name="C5_5" HorizontalAlignment="Left" Margin="434,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox x:Name="C5_6" HorizontalAlignment="Left" Margin="434,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox x:Name="C5_7" HorizontalAlignment="Left" Margin="434,486,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox x:Name="C5_8" HorizontalAlignment="Left" Margin="434,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox x:Name="C4_5" HorizontalAlignment="Left" Margin="370,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP4"/>
+        <TextBox HorizontalAlignment="Left" Margin="466,522,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="498,522,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox x:Name="C6_1" HorizontalAlignment="Left" Margin="562,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP6"/>
+        <TextBox x:Name="C6_3" HorizontalAlignment="Left" Margin="562,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
+        <TextBox x:Name="C6_4" HorizontalAlignment="Left" Margin="562,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
+        <TextBox x:Name="C6_5" HorizontalAlignment="Left" Margin="562,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
+        <TextBox x:Name="C6_6" HorizontalAlignment="Left" Margin="562,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" PreviewKeyDown="VerificarP6"/>
+        <TextBox x:Name="C2_2" HorizontalAlignment="Left" Margin="210,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP2"/>
+        <TextBox x:Name="C2_3" HorizontalAlignment="Left" Margin="210,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP2"/>
+        <TextBox x:Name="C2_4" HorizontalAlignment="Left" Margin="210,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
+        <TextBox x:Name="C2_5" HorizontalAlignment="Left" Margin="210,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP2"/>
+        <TextBox x:Name="C2_6" HorizontalAlignment="Left" Margin="210,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,618,0,0" TextWrapping="Wrap" Text="Texto da Vitória" VerticalAlignment="Top" Height="28" Width="220" TextAlignment="Center" FontSize="22"/>
+        <Button x:Name="btn_1" Content="" HorizontalAlignment="Left" Margin="85,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica1">
+            <Button.Background>
+                <ImageBrush ImageSource="/Btn_1.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_6" Content="" HorizontalAlignment="Left" Margin="562,234,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica6">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_6.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_9" Content="" HorizontalAlignment="Center" Margin="0,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica9">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="/btn_9.png" TileMode="None">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.4" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.4" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.4" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_7" Content="" HorizontalAlignment="Left" Margin="243,198,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica7">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_7.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.45" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.45" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.45" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_10" Content="" HorizontalAlignment="Left" Margin="371,522,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica10">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="/btn_10.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.65" ScaleX="1.5" ScaleY="1.5"/>
+                            <SkewTransform CenterX="0.65" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.65" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_2" Content="" HorizontalAlignment="Left" Margin="210,126,0,0" VerticalAlignment="Top" Height="31" Width="26" ClickMode="Release" Click="Dica2">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_2.png" Stretch="Uniform" TileMode="None">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_3" Content="" HorizontalAlignment="Left" Margin="274,90,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica3">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_3.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_4" Content="" HorizontalAlignment="Left" Margin="370,126,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica4">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_4.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_5" Content="" HorizontalAlignment="Left" Margin="434,234,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica5">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_5.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_8" Content="" HorizontalAlignment="Left" Margin="306,306,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica8">
+            <Button.Background>
+                <ImageBrush ImageSource="/btn_8.png" Stretch="Uniform">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="2" ScaleY="2"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="C1_2" HorizontalAlignment="Left" Margin="147,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
+        <TextBox x:Name="C3_1" HorizontalAlignment="Left" Margin="274,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP3"/>
+
+    </Grid>
+</Window>
