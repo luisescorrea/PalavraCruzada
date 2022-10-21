@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PalavraCruzada"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="700" ResizeMode="NoResize">
+        Title="MainWindow" Height="700" Width="700" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <TextBox x:Name="C1_1" HorizontalAlignment="Left" Margin="116,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1" />
         <TextBox x:Name="C1_3" HorizontalAlignment="Left" Margin="178,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
@@ -22,27 +22,27 @@
         <TextBox x:Name="C4_1" HorizontalAlignment="Left" Margin="370,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP4"/>
         <TextBox x:Name="C4_3" HorizontalAlignment="Left" Margin="370,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP4"/>
         <TextBox x:Name="C4_4" HorizontalAlignment="Left" Margin="370,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP4"/>
-        <TextBox HorizontalAlignment="Left" Margin="402,522,0,0" TextWrapping="Wrap" Text="F" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="402,162,0,0" TextWrapping="Wrap" Text="U" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="434,162,0,0" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="466,162,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="339,306,0,0" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="402,306,0,0" TextWrapping="Wrap" Text="M" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox x:Name="C5_2" HorizontalAlignment="Left" Margin="434,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="466,306,0,0" TextWrapping="Wrap" Text="S" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="498,306,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="530,306,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox x:Name="C10_1" HorizontalAlignment="Left" Margin="402,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP10"/>
+        <TextBox x:Name="C9_2" HorizontalAlignment="Left" Margin="402,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP9"/>
+        <TextBox x:Name="C9_3" HorizontalAlignment="Left" Margin="434,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP9"/>
+        <TextBox x:Name="C9_4" HorizontalAlignment="Left" Margin="466,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP9"/>
+        <TextBox x:Name="C8_1" HorizontalAlignment="Left" Margin="339,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP8"/>
+        <TextBox x:Name="C8_3" HorizontalAlignment="Left" Margin="402,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP8"/>
+        <TextBox x:Name="C5_2" HorizontalAlignment="Left" Margin="434,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C8_5" HorizontalAlignment="Left" Margin="466,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP8"/>
+        <TextBox x:Name="C8_6" HorizontalAlignment="Left" Margin="498,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP8"/>
+        <TextBox x:Name="C8_7" HorizontalAlignment="Left" Margin="530,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP8"/>
         <TextBox x:Name="C6_2" HorizontalAlignment="Left" Margin="562,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
         <TextBox x:Name="C5_1" HorizontalAlignment="Left" Margin="434,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP5"/>
-        <TextBox x:Name="C5_3" HorizontalAlignment="Left" Margin="434,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="2147483644"/>
-        <TextBox x:Name="C5_4" HorizontalAlignment="Left" Margin="434,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox x:Name="C5_5" HorizontalAlignment="Left" Margin="434,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox x:Name="C5_6" HorizontalAlignment="Left" Margin="434,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
-        <TextBox x:Name="C5_7" HorizontalAlignment="Left" Margin="434,486,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox x:Name="C5_8" HorizontalAlignment="Left" Margin="434,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1"/>
+        <TextBox x:Name="C5_3" HorizontalAlignment="Left" Margin="434,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="2147483644" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C5_4" HorizontalAlignment="Left" Margin="434,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C5_5" HorizontalAlignment="Left" Margin="434,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C5_6" HorizontalAlignment="Left" Margin="434,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C5_7" HorizontalAlignment="Left" Margin="434,486,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP5"/>
+        <TextBox x:Name="C5_8" HorizontalAlignment="Left" Margin="434,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP5"/>
         <TextBox x:Name="C4_5" HorizontalAlignment="Left" Margin="370,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP4"/>
-        <TextBox HorizontalAlignment="Left" Margin="466,522,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="498,522,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1"/>
+        <TextBox x:Name="C10_3" HorizontalAlignment="Left" Margin="466,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP10"/>
+        <TextBox x:Name="C10_4" HorizontalAlignment="Left" Margin="498,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP10"/>
         <TextBox x:Name="C6_1" HorizontalAlignment="Left" Margin="562,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP6"/>
         <TextBox x:Name="C6_3" HorizontalAlignment="Left" Margin="562,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
         <TextBox x:Name="C6_4" HorizontalAlignment="Left" Margin="562,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP6"/>
@@ -53,7 +53,7 @@
         <TextBox x:Name="C2_4" HorizontalAlignment="Left" Margin="210,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
         <TextBox x:Name="C2_5" HorizontalAlignment="Left" Margin="210,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP2"/>
         <TextBox x:Name="C2_6" HorizontalAlignment="Left" Margin="210,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,618,0,0" TextWrapping="Wrap" Text="Texto da Vitória" VerticalAlignment="Top" Height="28" Width="220" TextAlignment="Center" FontSize="22"/>
+        <TextBlock x:Name="txtVitoria" HorizontalAlignment="Center" Margin="0,618,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="220" TextAlignment="Center" FontSize="22" Visibility="Visible" PreviewLostKeyboardFocus="VerificarVitoria"/>
         <Button x:Name="btn_1" Content="" HorizontalAlignment="Left" Margin="85,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica1">
             <Button.Background>
                 <ImageBrush ImageSource="/Btn_1.png" Stretch="Uniform">
@@ -82,7 +82,7 @@
                 </ImageBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_9" Content="" HorizontalAlignment="Center" Margin="0,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica9">
+        <Button x:Name="btn_9" Content="" HorizontalAlignment="Left" Margin="339,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica9">
             <Button.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="/btn_9.png" TileMode="None">
                     <ImageBrush.RelativeTransform>
