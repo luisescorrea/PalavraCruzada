@@ -18,6 +18,8 @@
     <None Remove="btn_7.png" />
     <None Remove="btn_8.png" />
     <None Remove="btn_9.png" />
+    <None Remove="GATOFOFO.png" />
+    <None Remove="IoTechpng.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +33,8 @@
     <Resource Include="btn_7.png" />
     <Resource Include="btn_8.png" />
     <Resource Include="btn_9.png" />
+    <Resource Include="GATOFOFO.png" />
+    <Resource Include="IoTechpng.png" />
   </ItemGroup>
 
 </Project>

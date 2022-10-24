@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PalavraCruzada"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="700" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
         <TextBox x:Name="C1_1" HorizontalAlignment="Left" Margin="116,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1" />
         <TextBox x:Name="C1_3" HorizontalAlignment="Left" Margin="178,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
         <TextBox x:Name="C1_4" HorizontalAlignment="Left" Margin="210,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
@@ -53,7 +53,7 @@
         <TextBox x:Name="C2_4" HorizontalAlignment="Left" Margin="210,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
         <TextBox x:Name="C2_5" HorizontalAlignment="Left" Margin="210,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP2"/>
         <TextBox x:Name="C2_6" HorizontalAlignment="Left" Margin="210,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
-        <TextBlock x:Name="txtVitoria" HorizontalAlignment="Center" Margin="0,618,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="220" TextAlignment="Center" FontSize="22" Visibility="Visible" PreviewLostKeyboardFocus="VerificarVitoria"/>
+        <TextBlock x:Name="txtVitoria" HorizontalAlignment="Center" Margin="0,618,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="220" TextAlignment="Center" FontSize="22" Visibility="Visible"/>
         <Button x:Name="btn_1" Content="" HorizontalAlignment="Left" Margin="85,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica1">
             <Button.Background>
                 <ImageBrush ImageSource="/Btn_1.png" Stretch="Uniform">

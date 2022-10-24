@@ -30,6 +30,7 @@ namespace PalavraCruzada
         bool Palavra8 = false;
         bool Palavra9 = false;
         bool Palavra10 = false;
+        bool vitoria = false;
         public MainWindow()
         {
             InitializeComponent();
@@ -95,6 +96,12 @@ namespace PalavraCruzada
                 C1_4.Background = Brushes.LightGreen;
                 C1_5.Background = Brushes.LightGreen;
                 C1_6.Background = Brushes.LightGreen;
+                C1_1.IsReadOnly = true;
+                C1_2.IsReadOnly = true;
+                C1_3.IsReadOnly = true;
+                C1_4.IsReadOnly = true;
+                C1_5.IsReadOnly = true;
+                C1_6.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 1 COMPLETA", "Parabéns:");
                 Palavra1 = true;
             }
@@ -107,6 +114,12 @@ namespace PalavraCruzada
                 C2_4.Background = Brushes.LightGreen;
                 C2_5.Background = Brushes.LightGreen;
                 C2_6.Background = Brushes.LightGreen;
+                C1_4.IsReadOnly = true;
+                C2_2.IsReadOnly = true;
+                C2_3.IsReadOnly = true;
+                C2_4.IsReadOnly = true;
+                C2_5.IsReadOnly = true;
+                C2_6.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 2 COMPLETA", "Parabéns:");
                 Palavra2 = true;
             }
@@ -119,24 +132,40 @@ namespace PalavraCruzada
                 C3_3.Background = Brushes.LightGreen;
                 C3_4.Background = Brushes.LightGreen;
                 C3_5.Background = Brushes.LightGreen;
+                C3_1.IsReadOnly = true;
+                C1_6.IsReadOnly = true;
+                C3_2.IsReadOnly = true;
+                C3_3.IsReadOnly = true;
+                C3_4.IsReadOnly = true;
+                C3_5.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 3 COMPLETA", "Parabéns:");
                 Palavra3 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP2(object sender, KeyEventArgs e)
         {
             if (C1_4.Text.Contains("I") && C2_2.Text.Contains("G") && C2_3.Text.Contains("R") && C2_4.Text.Contains("E") && C2_5.Text.Contains("J") && C2_6.Text.Contains("A") && Palavra2 == false)
             {
-                    C1_4.Background = Brushes.LightGreen;
-                    C2_2.Background = Brushes.LightGreen;
-                    C2_3.Background = Brushes.LightGreen;
-                    C2_4.Background = Brushes.LightGreen;
-                    C2_5.Background = Brushes.LightGreen;
-                    C2_6.Background = Brushes.LightGreen;
-                    MessageBoxResult result = MessageBox.Show("PALAVRA 2 COMPLETA", "Parabéns:");
-                    Palavra2 = true;
+                C1_4.Background = Brushes.LightGreen;
+                C2_2.Background = Brushes.LightGreen;
+                C2_3.Background = Brushes.LightGreen;
+                C2_4.Background = Brushes.LightGreen;
+                C2_5.Background = Brushes.LightGreen;
+                C2_6.Background = Brushes.LightGreen;
+                C1_4.IsReadOnly = true;
+                C2_2.IsReadOnly = true;
+                C2_3.IsReadOnly = true;
+                C2_4.IsReadOnly = true;
+                C2_5.IsReadOnly = true;
+                C2_6.IsReadOnly = true;
+                MessageBoxResult result = MessageBox.Show("PALAVRA 2 COMPLETA", "Parabéns:");
+                Palavra2 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP3(object sender, KeyEventArgs e)
@@ -149,6 +178,12 @@ namespace PalavraCruzada
                 C3_3.Background = Brushes.LightGreen;
                 C3_4.Background = Brushes.LightGreen;
                 C3_5.Background = Brushes.LightGreen;
+                C3_1.IsReadOnly = true;
+                C1_6.IsReadOnly = true;
+                C3_2.IsReadOnly = true;
+                C3_3.IsReadOnly = true;
+                C3_4.IsReadOnly = true;
+                C3_5.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 3 COMPLETA", "Parabéns:");
                 Palavra3 = true;
             }
@@ -159,10 +194,15 @@ namespace PalavraCruzada
                 C7_2.Background = Brushes.LightGreen;
                 C7_3.Background = Brushes.LightGreen;
                 C4_2.Background = Brushes.LightGreen;
+                C3_2.IsReadOnly = true;
+                C7_2.IsReadOnly = true;
+                C7_3.IsReadOnly = true;
+                C4_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 7 COMPLETA", "Parabéns:");
                 Palavra7 = true;
             }
 
+            VerificarVitoria();
         }
 
         private void VerificarP4(object sender, KeyEventArgs e)
@@ -174,6 +214,11 @@ namespace PalavraCruzada
                 C4_3.Background = Brushes.LightGreen;
                 C4_4.Background = Brushes.LightGreen;
                 C4_5.Background = Brushes.LightGreen;
+                C4_1.IsReadOnly = true;
+                C4_2.IsReadOnly = true;
+                C4_3.IsReadOnly = true;
+                C4_4.IsReadOnly = true;
+                C4_5.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 4 COMPLETA", "Parabéns:");
                 Palavra4 = true;
             }
@@ -184,6 +229,10 @@ namespace PalavraCruzada
                 C7_2.Background = Brushes.LightGreen;
                 C7_3.Background = Brushes.LightGreen;
                 C4_2.Background = Brushes.LightGreen;
+                C3_2.IsReadOnly = true;
+                C7_2.IsReadOnly = true;
+                C7_3.IsReadOnly = true;
+                C4_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 7 COMPLETA", "Parabéns:");
                 Palavra7 = true;
             }
@@ -194,6 +243,10 @@ namespace PalavraCruzada
                 C9_2.Background = Brushes.LightGreen;
                 C9_3.Background = Brushes.LightGreen;
                 C9_4.Background = Brushes.LightGreen;
+                C4_1.IsReadOnly = true;
+                C9_2.IsReadOnly = true;
+                C9_3.IsReadOnly = true;
+                C9_4.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 9 COMPLETA", "Parabéns:");
                 Palavra9 = true;
             }
@@ -208,9 +261,19 @@ namespace PalavraCruzada
                 C8_6.Background = Brushes.LightGreen;
                 C8_7.Background = Brushes.LightGreen;
                 C6_2.Background = Brushes.LightGreen;
+                C8_1.IsReadOnly = true;
+                C4_5.IsReadOnly = true;
+                C8_3.IsReadOnly = true;
+                C5_2.IsReadOnly = true;
+                C8_5.IsReadOnly = true;
+                C8_6.IsReadOnly = true;
+                C8_7.IsReadOnly = true;
+                C6_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 8 COMPLETA", "Parabéns:");
                 Palavra8 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP5(object sender, KeyEventArgs e)
@@ -225,6 +288,14 @@ namespace PalavraCruzada
                 C5_6.Background = Brushes.LightGreen;
                 C5_7.Background = Brushes.LightGreen;
                 C5_8.Background = Brushes.LightGreen;
+                C5_1.IsReadOnly = true;
+                C5_2.IsReadOnly = true;
+                C5_3.IsReadOnly = true;
+                C5_4.IsReadOnly = true;
+                C5_5.IsReadOnly = true;
+                C5_6.IsReadOnly = true;
+                C5_7.IsReadOnly = true;
+                C5_8.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 5 COMPLETA", "Parabéns:");
                 Palavra5 = true;
             }
@@ -239,6 +310,14 @@ namespace PalavraCruzada
                 C8_6.Background = Brushes.LightGreen;
                 C8_7.Background = Brushes.LightGreen;
                 C6_2.Background = Brushes.LightGreen;
+                C8_1.IsReadOnly = true;
+                C4_5.IsReadOnly = true;
+                C8_3.IsReadOnly = true;
+                C5_2.IsReadOnly = true;
+                C8_5.IsReadOnly = true;
+                C8_6.IsReadOnly = true;
+                C8_7.IsReadOnly = true;
+                C6_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 8 COMPLETA", "Parabéns:");
                 Palavra8 = true;
             }
@@ -249,9 +328,15 @@ namespace PalavraCruzada
                 C5_8.Background = Brushes.LightGreen;
                 C10_3.Background = Brushes.LightGreen;
                 C10_4.Background = Brushes.LightGreen;
+                C10_1.IsReadOnly = true;
+                C5_8.IsReadOnly = true;
+                C10_3.IsReadOnly = true;
+                C10_4.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 9 COMPLETA", "Parabéns:");
                 Palavra10 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP6(object sender, KeyEventArgs e)
@@ -264,6 +349,12 @@ namespace PalavraCruzada
                 C6_4.Background = Brushes.LightGreen;
                 C6_5.Background = Brushes.LightGreen;
                 C6_6.Background = Brushes.LightGreen;
+                C6_1.IsReadOnly = true;
+                C6_2.IsReadOnly = true;
+                C6_3.IsReadOnly = true;
+                C6_4.IsReadOnly = true;
+                C6_5.IsReadOnly = true;
+                C6_6.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 6 COMPLETA", "Parabéns:");
                 Palavra6 = true;
             }
@@ -278,9 +369,19 @@ namespace PalavraCruzada
                 C8_6.Background = Brushes.LightGreen;
                 C8_7.Background = Brushes.LightGreen;
                 C6_2.Background = Brushes.LightGreen;
+                C8_1.IsReadOnly = true;
+                C4_5.IsReadOnly = true;
+                C8_3.IsReadOnly = true;
+                C5_2.IsReadOnly = true;
+                C8_5.IsReadOnly = true;
+                C8_6.IsReadOnly = true;
+                C8_7.IsReadOnly = true;
+                C6_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 8 COMPLETA", "Parabéns:");
                 Palavra8 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP7(object sender, KeyEventArgs e)
@@ -291,9 +392,15 @@ namespace PalavraCruzada
                 C7_2.Background = Brushes.LightGreen;
                 C7_3.Background = Brushes.LightGreen;
                 C4_2.Background = Brushes.LightGreen;
+                C3_2.IsReadOnly = true;
+                C7_2.IsReadOnly = true;
+                C7_3.IsReadOnly = true;
+                C4_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 7 COMPLETA", "Parabéns:");
                 Palavra7 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP8(object sender, KeyEventArgs e)
@@ -308,9 +415,19 @@ namespace PalavraCruzada
                 C8_6.Background = Brushes.LightGreen;
                 C8_7.Background = Brushes.LightGreen;
                 C6_2.Background = Brushes.LightGreen;
+                C8_1.IsReadOnly = true;
+                C4_5.IsReadOnly = true;
+                C8_3.IsReadOnly = true;
+                C5_2.IsReadOnly = true;
+                C8_5.IsReadOnly = true;
+                C8_6.IsReadOnly = true;
+                C8_7.IsReadOnly = true;
+                C6_2.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 8 COMPLETA", "Parabéns:");
                 Palavra7 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP9(object sender, KeyEventArgs e)
@@ -321,9 +438,15 @@ namespace PalavraCruzada
                 C9_2.Background = Brushes.LightGreen;
                 C9_3.Background = Brushes.LightGreen;
                 C9_4.Background = Brushes.LightGreen;
+                C4_1.IsReadOnly = true;
+                C9_2.IsReadOnly = true;
+                C9_3.IsReadOnly = true;
+                C9_4.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 9 COMPLETA", "Parabéns:");
                 Palavra9 = true;
             }
+
+            VerificarVitoria();
         }
 
         private void VerificarP10(object sender, KeyEventArgs e)
@@ -334,25 +457,24 @@ namespace PalavraCruzada
                 C5_8.Background = Brushes.LightGreen;
                 C10_3.Background = Brushes.LightGreen;
                 C10_4.Background = Brushes.LightGreen;
+                C10_1.IsReadOnly = true;
+                C5_8.IsReadOnly = true;
+                C10_3.IsReadOnly = true;
+                C10_4.IsReadOnly = true;
                 MessageBoxResult result = MessageBox.Show("PALAVRA 9 COMPLETA", "Parabéns:");
                 Palavra10 = true;
             }
+
+            VerificarVitoria();
         }
 
-        //private void VerificarVitoria(object sender, MouseEventArgs e)
-       // {
-       //     if(Palavra1 == true && Palavra2 == true && Palavra3 == true && Palavra4 == true && Palavra5 == true && Palavra6 == true && Palavra7 == true && Palavra8 == true && Palavra9 == true && Palavra10 == true)
-       //     {
-       //         txtVitoria.Text = "Vitória";
-       //     }
-      //  }
-
-        private void VerificarVitoria(object sender, KeyboardFocusChangedEventArgs e)
+        private void VerificarVitoria()
         {
-            if (Palavra1 == true)
+            if (Palavra1 == true && Palavra2 == true && Palavra3 == true && Palavra4 == true && Palavra5 == true && Palavra6 == true && Palavra7 == true && Palavra8 == true && Palavra9 == true && Palavra10 == true && vitoria == false)
             {
-                MessageBoxResult result = MessageBox.Show("FOI");
+                MessageBoxResult result = MessageBox.Show("Você venceu!", "PARABÉNS");
                 txtVitoria.Text += "Vitória";
+                vitoria = true;
             }
         }
     }
