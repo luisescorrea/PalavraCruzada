@@ -378,6 +378,7 @@ namespace PalavraCruzada
                 MessageBoxResult result = MessageBox.Show("Você venceu!!", "PARABÉNS:");
                 txtVitoria.Text += "Vitória :)";
                 vitoria = true;
+                img_gatinfeliz.Visibility = Visibility.Visible;
             }
         }
     }

@@ -53,7 +53,7 @@
         <TextBox x:Name="C2_4" HorizontalAlignment="Left" Margin="210,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
         <TextBox x:Name="C2_5" HorizontalAlignment="Left" Margin="210,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP2"/>
         <TextBox x:Name="C2_6" HorizontalAlignment="Left" Margin="210,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLines="1" MaxLength="1" PreviewKeyDown="VerificarP2"/>
-        <TextBlock x:Name="txtVitoria" HorizontalAlignment="Center" Margin="0,603,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="284" TextAlignment="Center" FontSize="24" Visibility="Visible"/>
+        <TextBlock x:Name="txtVitoria" HorizontalAlignment="Left" Margin="241,606,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="284" TextAlignment="Center" FontSize="24" Visibility="Visible"/>
         <Button x:Name="btn_1" Content="" HorizontalAlignment="Left" Margin="85,162,0,0" VerticalAlignment="Top" Height="31" Width="26" Click="Dica1">
             <Button.Background>
                 <ImageBrush ImageSource="/Btn_1.png" Stretch="Uniform">
@@ -196,6 +196,11 @@
         </Button>
         <TextBox x:Name="C1_2" HorizontalAlignment="Left" Margin="147,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP1"/>
         <TextBox x:Name="C3_1" HorizontalAlignment="Left" Margin="274,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" FontSize="22" TextAlignment="Center" MaxLength="1" MaxLines="1" PreviewKeyDown="VerificarP3"/>
+        <Button x:Name="img_gatinfeliz" Content="" HorizontalAlignment="Left" Margin="85,486,0,0" VerticalAlignment="Top" Height="163" Width="166" BorderBrush="#FF99B4D1" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush ImageSource="/gatinfeliz-removebg-preview.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

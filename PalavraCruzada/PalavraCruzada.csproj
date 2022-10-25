@@ -18,6 +18,8 @@
     <None Remove="btn_7.png" />
     <None Remove="btn_8.png" />
     <None Remove="btn_9.png" />
+    <None Remove="gatinfeliz-removebg-preview.png" />
+    <None Remove="gatinfeliz.png" />
     <None Remove="GATOFOFO.png" />
     <None Remove="IoTechpng.png" />
   </ItemGroup>
@@ -33,6 +35,7 @@
     <Resource Include="btn_7.png" />
     <Resource Include="btn_8.png" />
     <Resource Include="btn_9.png" />
+    <Resource Include="gatinfeliz-removebg-preview.png" />
     <Resource Include="GATOFOFO.png" />
     <Resource Include="IoTechpng.png" />
   </ItemGroup>
