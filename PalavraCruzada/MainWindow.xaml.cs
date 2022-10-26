@@ -38,52 +38,52 @@ namespace PalavraCruzada
 
         private void Dica1(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Comida favorita dos ratos nos desenhos.", "Dica:");//QUEIJO
+            MessageBoxResult result = MessageBox.Show("Comida favorita dos ratos nos desenhos.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//QUEIJO
         }
 
         private void Dica2(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Casa de Deus.", "Dica:"); //IGREJA
+            MessageBoxResult result = MessageBox.Show("Casa de Deus.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information); //IGREJA
         }
 
         private void Dica3(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Entrega notícia no dia a dia.", "Dica:"); //JORNAL
+            MessageBoxResult result = MessageBox.Show("Entrega notícia no dia a dia.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information); //JORNAL
         }
 
         private void Dica4(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Truco, Uno, Poker, BlackJack(21).", "Dica:");//CARTA
+            MessageBoxResult result = MessageBox.Show("Truco, Uno, Poker, BlackJack(21).", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//CARTA
         }
 
         private void Dica5(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Doce no palito.", "Dica:");//PIRULITO
+            MessageBoxResult result = MessageBox.Show("Doce no palito.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//PIRULITO
         }
 
         private void Dica6(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("[Cala boca] Jovem!! em inglês.", "Dica:");//XAROPE
+            MessageBoxResult result = MessageBox.Show("[Cala boca] Jovem!! em inglês.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//XAROPE
         }
 
         private void Dica7(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Quem tem boca vaia ____.", "Dica:");//ROMA
+            MessageBoxResult result = MessageBox.Show("Quem tem boca vaia ____.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//ROMA
         }
 
         private void Dica8(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Não é camisa.", "Dica:");//CAMISETA
+            MessageBoxResult result = MessageBox.Show("Não é camisa.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//CAMISETA
         }
 
         private void Dica9(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Forma geométrica mágica.", "Dica:");//CUBO
+            MessageBoxResult result = MessageBox.Show("Forma geométrica mágica.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//CUBO
         }
 
         private void Dica10(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Dispositivo sonoro portátil.", "Dica:");//FONE
+            MessageBoxResult result = MessageBox.Show("Dispositivo sonoro portátil.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//FONE
         }
 
         private void VerificarP1(object sender, KeyEventArgs e)
@@ -375,7 +375,7 @@ namespace PalavraCruzada
         {
             if (Palavra1 == true && Palavra2 == true && Palavra3 == true && Palavra4 == true && Palavra5 == true && Palavra6 == true && Palavra7 == true && Palavra8 == true && Palavra9 == true && Palavra10 == true && vitoria == false)
             {
-                MessageBoxResult result = MessageBox.Show("Você venceu!!", "PARABÉNS:");
+                MessageBoxResult result = MessageBox.Show( "Você venceu!!", "PARABÉNS:", MessageBoxButton.OK, MessageBoxImage.Information);
                 txtVitoria.Text += "Vitória :)";
                 vitoria = true;
                 img_gatinfeliz.Visibility = Visibility.Visible;
