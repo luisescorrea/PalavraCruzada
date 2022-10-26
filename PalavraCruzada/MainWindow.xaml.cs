@@ -35,7 +35,7 @@ namespace PalavraCruzada
         {
             InitializeComponent();
         }
-
+        //Dicas
         private void Dica1(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("Comida favorita dos ratos nos desenhos.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//QUEIJO
@@ -86,6 +86,7 @@ namespace PalavraCruzada
             MessageBoxResult result = MessageBox.Show("Dispositivo sonoro portátil.", "Dica:", MessageBoxButton.OK, MessageBoxImage.Information);//FONE
         }
 
+        //Verificar as colunas e linhas da palavra cruzada
         private void VerificarP1(object sender, KeyEventArgs e)
         {
             Palavra1Correta();
